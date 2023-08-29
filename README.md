@@ -4,3 +4,14 @@ This 5-day tcl workshop by vlsi system design (VSD) is intended to familiarize t
 ## Day1: Introduction to TCL and VSDSYNTH Toolbox Usage
 During day 1 the main task was writing a shell script (i.e. tclui) which further calls the tcl script (tclui.cl) assuming the correct input (.csv file) is provided else it displays an appropriate message depending on the error.
 
+The main scenarios being covered by the shell scripts in terms of the types of inputs the script can handle have been mentioned in the figure below:
+![Program](images/day1/d1_1.png)
+
+
+A snapshot of the input file (openMSP430_design_details.csv) is indicated below:
+![Program](images/day1/d1_2.png)
+
+A glimpse of the interface provided by the tclui command (i.e. tclui shell script) is:
+![Program](images/day1/d1_3.png)
+
+## Day 2: Variable Creation and Processing Constraints from CSV
