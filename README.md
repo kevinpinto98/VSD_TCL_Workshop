@@ -31,3 +31,10 @@ A snapshot of a section of the final SDC file generated is as shown below:
 ![Program](images/day3/d3_1.png)
 
 ## Day 4: Complete Scripting and Yosys Synthesis Introduction
+Day 4 mainly involved tasks related to performing hierarchy checks and error handling for the Yosys synthesis tool.
+The script to check the hierarchy is present in the file openMSP430.hier.ys in the output directory outdir_openMSP430. A snapshot of the said file is shown below:
+![Program](images/day4/d4_1.png)
+
+
+The errors and outputs of the synthesis process can be found in the log file openMSP430.hierarchy_check.log in the output directory outdir_openMSP430. A snapshot of the said file is shown below:
+![Program](images/day4/d4_2.png)
