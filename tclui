@@ -1,0 +1,49 @@
+#!/bin/tcsh -f
+
+echo "                 *********    **** ***        ***     *** *******                                      "
+echo "                 *********  **     ***        ***     *** *******                                      "
+echo "                    ***    **      ***        ***     ***   ***                                        "
+echo "                    ***    **      ***         ***   ***    ***                                        "
+echo "                    ***     **     *******      ***  ***  *******                                      "
+echo "                    ***      ***** *******        ***     *******                                      "
+echo " An unique user interface (UI) in tcl that takes RTL netlist and SDC constraints as inputs             "
+echo "   and generates synthesized netlist and pre-layout timing report as outputs. It uses Yosys            "
+echo " open-source tool for synthesis and Opentimer to generate pre-layout timing reports.                   "
+echo
+echo "                        Developed and maintained by Kevin Pinto.                                       "
+echo "         For any queries and bugs please send an email to kevinpinto98@gmail.com                       "
+echo
+
+set my_work_dir = `pwd`
+
+if ($#argv != 1) then
+	echo "Info: Please provide csv file"
+	exit 1
+endif
+
+if (! -f $argv[1] || $argv[1] == "-help") then
+	if ($argv[1] != "-help") then
+		echo "Error: Cannot find csv file $argv[1]. Exiting... "
+		exit 1
+	else
+		echo "USAGE: ./tclui \<csv file\>"
+		echo
+		echo "        where \<csv file\> consists of 2 columns, below keyword being in 1st column ans id Case Sensitive. Please request Kevin Pinto for sample csv file."
+		echo
+		echo "        \<Design Name\> is the name of top level module."
+		echo 
+		echo "        \<Output Directory\> is the name of output directory where you want to dump synthesis script, synthesized netlist and timing reports."
+		echo
+		echo "        \<Netlist Directory\> is the name of the directory where all RTL netlist are present."
+		echo
+		echo "        \<Early Library Path\> is the file path of the early cell library to be used for STA."
+		echo
+		echo "        \<Late Library Path\> is file path of the late cell library to be used for STA."
+		echo
+		echo "        \<Constraints file\> is csv file path of constraints to be used for STA."
+		echo
+		exit 1
+	endif
+else
+	tclsh tclui.tcl $argv[1]
+endif
