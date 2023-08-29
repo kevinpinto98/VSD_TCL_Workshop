@@ -1,2 +1,2 @@
 # VSD_TCL_Workshop
-Hi
+This 5-day tcl workshop by vlsi system design (VSD) is intended to familiarize th eparticipants with the fundamentals of tcl scripting and how it can be used in conjunction with open-source EDA tools such as Yosys and opentimer by acting as an interface that takes the input design in the form of a .csv file and generates various reports such as timing
