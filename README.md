@@ -38,3 +38,6 @@ The script to check the hierarchy is present in the file openMSP430.hier.ys in t
 
 The errors and outputs of the synthesis process can be found in the log file openMSP430.hierarchy_check.log in the output directory outdir_openMSP430. A snapshot of the output log file is shown below:
 ![Program](images/day4/d4_2.png)
+
+# Acknowledgements
+  - [Kunal Ghosh](https://github.com/kunalg123), Co-founder, VSD Corp. Pvt. Ltd.
