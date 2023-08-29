@@ -15,5 +15,11 @@ A glimpse of the interface provided by the tclui command (i.e. tclui shell scrip
 ![Program](images/day1/d1_3.png)
 
 ## Day 2: Variable Creation and Processing Constraints from CSV
-The steps involved in day 2 are sumarized in the figure below:
+The steps involved in day 2 are summarized in the figure below:
 ![Program](images/day2/d2_1.png)
+
+The input constraints file (openMSP430_design_constraints.csv) is shown in the image below:
+![Program](images/day2/d2_2.png)
+
+The output after setting the appropriate variables to the necessary ibrary files and directories is as follows:
+![Program](images/day2/d2_3.png)
