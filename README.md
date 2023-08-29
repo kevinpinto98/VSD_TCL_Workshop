@@ -15,3 +15,5 @@ A glimpse of the interface provided by the tclui command (i.e. tclui shell scrip
 ![Program](images/day1/d1_3.png)
 
 ## Day 2: Variable Creation and Processing Constraints from CSV
+The steps involved in day 2 are sumarized in the figure below:
+![Program](images/day2/d2_1.png)
