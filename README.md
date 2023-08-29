@@ -22,4 +22,4 @@ The input constraints file (openMSP430_design_constraints.csv) is shown in the i
 ![Program](images/day2/d2_2.png)
 
 The output after setting the appropriate variables to the necessary ibrary files and directories is as follows:
-![Program](images/day2/d2_3.png)
+![Program](images/day2/day2_3.png)
